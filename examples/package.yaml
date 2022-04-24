@@ -1,1 +1,17 @@
+%YAML 1.2
+---
 # Toit Package File.
+# TODO:
+# - Remove redundant comments.
+
+# name: YOUR_PACKAGE_NAME
+# version: 0.0.0
+# author: 'e.g., John Doe'
+# license: copyright
+# url: Home page
+# description: 'Some descriptions...'
+# dependency:
+#   package:
+#     - name: PACKAGE_NAME
+#       version: 0.0.0
+#     ...
