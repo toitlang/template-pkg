@@ -2,7 +2,7 @@
 ---
 # Toit Package File.
 # TODO:
-# - Remove redundant comments.
+# - Clear the example from comments.
 
 # name: YOUR_PACKAGE_NAME
 # version: 0.0.0
