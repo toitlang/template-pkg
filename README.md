@@ -58,7 +58,7 @@ Open the examples (resp. tests) folder with a separate instance of your IDE.
 For vscode you could just write `code examples`.
 
 Install this package as a local package.
-```
+```sh
 cd examples
 toit.pkg install --local --name=YOUR_PACKAGE_NAME ..
 ```
@@ -73,12 +73,12 @@ users of the package.
 ## Publish
 Make sure to run `toit.pkg describe` to verify that the data is correct.
 
-This repository comes with a `.github/workflows/publish.xml` file which automatically
+This repository comes with a `.github/workflows/publish.yml` file which automatically
 publishes the Toit package for every release. You can just draft a new release on
-Github.
+GitHub.
 It is important that the release has a semver tag (like `v1.2.3`).
 
 Alternatively, a package can be published by hand:
-0. Ensure that everything looks good (`toit.pkg describe`).
-1. Add a semver tag (like `v1.0.0`).
-2. Go to https://pkg.toit.io/publish and submit your package.
+1. Ensure that everything looks good (`toit.pkg describe`).
+2. Add a semver tag (like `v1.0.0`).
+3. Go to https://pkg.toit.io/publish and submit your package.
