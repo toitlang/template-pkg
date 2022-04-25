@@ -1,17 +1,8 @@
-%YAML 1.2
----
 # Toit Package File.
-# TODO:
-# - Clear the example from comments.
-
 # name: YOUR_PACKAGE_NAME
-# version: 0.0.0
-# author: 'e.g., John Doe'
-# license: copyright
-# url: Home page
+# license: |
+#   (Optional): if there is a LICENSE file that is recognized by `toit.pkg describe`.
+#   Otherwise one of https://spdx.org/licenses/
 # description: 'Some descriptions...'
-# dependency:
-#   package:
-#     - name: PACKAGE_NAME
-#       version: 0.0.0
-#     ...
+# Use `toit.pkg install PACKAGE_ID` to install dependencies.
+# dependencies:
